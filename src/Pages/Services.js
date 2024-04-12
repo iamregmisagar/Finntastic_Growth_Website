@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
 
 const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
+    <div className="body">
+      <>
+        <Header />
+      </>
+      <Footer />
     </div>
   )
 }
